@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{/* CSS HEX */
+--azul: #0a1128ff;
+--azul-2: #001f54ff;
+--azul-3: #034078ff;
+--azul-claro: #1282a2ff;
+--branco: #fefcfbff;
+}
+
