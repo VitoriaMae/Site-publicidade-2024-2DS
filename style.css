@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +11,16 @@
 --azul-3: #034078ff;
 --azul-claro: #1282a2ff;
 --branco: #fefcfbff;
+--fonte-titulo: "New Amsterdam", sans-serif;
+--fonte-texto: "Raleway", sans-serif;
 }
 
+body{
+    background-color: var(--azul);
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
