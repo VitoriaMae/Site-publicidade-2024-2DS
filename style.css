@@ -44,3 +44,33 @@ body{
     color: var(--cor-um);
     margin-right: 24px;
 }
+.principal-capa{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 32px;
+    color: var(--cor-dois);
+    margin-bottom: 12px;
+}
+
+.principal-capa-texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+
