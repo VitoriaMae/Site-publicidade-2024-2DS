@@ -49,7 +49,7 @@ body{
     justify-content:center;
     align-items: center;
     gap: 24px;
-    background-image: url(fundo.jpg);
+    background-image: url(img-2DS-MariaV/fundo.jpg);
     background-repeat: no-repeat;
     margin-left: 12px;
     padding: 24px 12px;
@@ -85,6 +85,12 @@ body{
     margin-top: 2em;
     color: var(--azul-2);
     text-decoration: none;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--azul-2);
+    color: var(--azul-2);
 }
 
 
