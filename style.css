@@ -6,17 +6,18 @@
 }
 
 :root{/* CSS HEX */
---azul: #0a1128ff;
---azul-2: #001f54ff;
---azul-3: #034078ff;
---azul-claro: #1282a2ff;
---branco: #fefcfbff;
+--preto: #292929;
+--ciano: #3c6e71;
+--branco: #FFFFFF;
+--cinza: #d9d9d9;
+--azul: #284b63;
 --fonte-titulo: "New Amsterdam", sans-serif;
 --fonte-texto: "Raleway", sans-serif;
 }
 
 body{
-    background-color: var(--azul);
+    background-color: var(--preto);
+    color: var(--branco);
     font-family: var(--fonte-titulo);
     font-size: 16px;
 }
@@ -25,7 +26,7 @@ body{
     font-family: var(--fonte-titulo);
 }
 .cabecalho{
-    background-color: var(--azul-3);
+    background-color: var(--preto);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +42,7 @@ body{
     text-decoration: none;
     font-family: var(--texto-titulo);
     font-size: 24px;
-    color: var(--cor-um);
+    color: var(--branco);
     margin-right: 24px;
 }
 .principal-capa{
@@ -64,13 +65,17 @@ body{
 .principal-capa__titulo{
     font-family: var(--fonte-titulo);
     font-size: 32px;
-    color: var(--cor-dois);
+    color: var(--ciano);
     margin-bottom: 12px;
 }
 
 .principal-capa-texto{
     font-size: 24px;
     margin-top: 24px;
+}
+
+.principal-capa__imagem{
+    border-radius: 15% 15% 15% 15%;
 }
 .principal-capa__combotao{
     display: flex;
@@ -79,18 +84,22 @@ body{
 }
 
 .principal-capa__botao{
-    background-color: var(--azul);
+    background-color: var(--ciano);
     border-radius: 5px;
     padding: 1em;
     margin-top: 2em;
-    color: var(--azul-2);
+    color: var(--branco);
     text-decoration: none;
 }
 
 .botao__secundario{
     background-color: transparent;
-    border: 2px solid var(--azul-2);
-    color: var(--azul-2);
+    border: 2px solid var(--ciano);
+    color: var(--branco);
+}
+.espacamento-botao{
+    padding-top: 300px;
+    padding-right: 100px;
 }
 
 
