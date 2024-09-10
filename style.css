@@ -47,7 +47,7 @@ body{
 }
 .principal-capa{
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
     background-image: url(img-2DS-MariaV/fundo2.jpg);
@@ -97,9 +97,26 @@ body{
     border: 2px solid var(--ciano);
     color: var(--branco);
 }
-.espacamento-botao{
-    padding-top: 300px;
-    padding-right: 100px;
+
+.dispositivos{
+    text-align: center;
 }
 
+.dispositivos__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    color: var(--ciano);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 25px;
+    color: var(--branco);
+}
 
