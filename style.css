@@ -132,17 +132,19 @@ body{
 .propaganda__imagem{
     margin-left: 20%;
     width: 50%;
+    margin-top: 15%;
 }
 
 .propaganda__titulo{
     font-family: var(--texto-titulo);
-    font-size: 48%;
+    font-size: 65px;
     color: var(--ciano);
 }
 
-.propaganda__titulo:hover{
-    text-shadow: 3px 3px 5px var(--ciano);
+.propaganda__imagem:hover{
+    text-shadow: 3px 3px 5px var(--branco);
     transition: 700ms;
+    width: 60%;
 }
 
 .propaganda__texto{
