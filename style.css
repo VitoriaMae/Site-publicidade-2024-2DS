@@ -163,13 +163,13 @@ body{
 
 .lista__link a{
     text-decoration: none;
-    color: var(--ciano);
+    color: var(--branco);
     margin-left: 1em;
 }
 
 .rodape__texto{
     margin: 1em 0;
-    color: var(--ciano);
+    color: var(--branco);
     font-size: 14px;
 }
 
@@ -181,4 +181,5 @@ body{
     background-repeat: no-repeat;
     margin-left: 0;
     padding: 24px 12px;
+    border-radius: 15% 15% 15% 15%;
 }
