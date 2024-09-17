@@ -151,3 +151,25 @@ body{
     font-size: 24px;
     color: var(--ciano);
 }
+
+.rodape__lista{
+    font-size: 24px;
+    color: var(--branco);
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--ciano);
+    margin-left: 1em;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--ciano);
+    font-size: 14px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
